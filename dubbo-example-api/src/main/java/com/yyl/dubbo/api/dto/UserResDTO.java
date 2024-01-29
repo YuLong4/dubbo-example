@@ -11,6 +11,9 @@ import java.io.Serializable;
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
+/**
+ * 必须实现Serializable
+ */
 public class UserResDTO implements Serializable {
 
     private String userId;

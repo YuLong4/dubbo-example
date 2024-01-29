@@ -11,6 +11,9 @@ import java.io.Serializable;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
+/**
+ * 必须实现Serializable
+ */
 public class Response<T> implements Serializable {
 
     private String code;

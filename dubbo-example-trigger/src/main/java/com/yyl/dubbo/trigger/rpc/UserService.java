@@ -10,7 +10,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.DubboService;
 
 @Slf4j
-@DubboService(version = "1.0.0")
+@DubboService(version = "1.0.0")    //纳入dubbo管理
 public class UserService implements IUserService {
 
     @Override
